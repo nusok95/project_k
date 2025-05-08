@@ -1,0 +1,27 @@
+# Git
+.git/
+.gitignore
+
+# Python virtual environment
+env_message_handler/
+env_twilio/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local database (if not needed in production container)
+message_handler/db.sqlite3
+
+# IDE / Editor files
+.idea/
+.vscode/
+
+# Secrets / Local config (if any)
+# .env 
